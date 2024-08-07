@@ -21,7 +21,6 @@ const SimpleForm = () => {
         render={({ field }) => (
           <TextInput
             {...field}
-            onChangeText={}
             style={styles.input}
             placeholder="Enter your data"
             // Add other TextInput props as needed
