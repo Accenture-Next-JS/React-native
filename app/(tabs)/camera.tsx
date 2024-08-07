@@ -38,7 +38,6 @@ export default function App() {
    
             console.log(`Delay after takePictureAsync: ${Date.now()- start} ms`);
             console.log('base 64 is ' + photoData.base64)
-            setImageUri(photoData.uri);
           });
       }
     };
