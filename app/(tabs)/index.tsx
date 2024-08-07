@@ -4,6 +4,7 @@ import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
+import { ExternalLink } from '@/components/ExternalLink';
 
 export default function HomeScreen() {
   return (
@@ -21,6 +22,9 @@ export default function HomeScreen() {
           Nothing to do here...  
         </ThemedText>
       </ThemedView>
+      <ExternalLink href="/test">
+        <ThemedText type="link">GET MY IP</ThemedText>
+      </ExternalLink>
     </ParallaxScrollView>
   );
 }
